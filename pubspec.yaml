@@ -1,0 +1,63 @@
+name: todo_app_getx
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  #getx
+  get: ^4.6.5
+  #prefs
+  get_storage: ^2.0.3
+  #localization
+  flutter_localizations:
+    sdk: flutter
+  #for theme
+  adaptive_theme: ^3.1.1
+  flutter_screenutil: ^5.6.0
+  device_preview: ^1.1.0
+  firebase_core: ^2.3.0
+  flutter_staggered_animations: ^1.1.1
+  firebase_auth: ^4.1.4
+  flutter_slidable: ^2.0.0
+  cloud_firestore: ^4.1.0
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.7.0
+  flutterfire_ui: ^0.4.3+20
+  uuid: ^3.0.7
+  intl: ^0.17.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
+  freezed: ^2.2.1
+  json_serializable: ^6.5.4
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFPro-Regular.ttf
+       
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoMono-Regular.ttf
+       
+       
+
